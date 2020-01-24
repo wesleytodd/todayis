@@ -1,0 +1,21 @@
+{
+  "name": "todayis",
+  "version": "1.0.0",
+  "description": "Tell me what day it is please",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node test.js",
+    "preversion": "npm t",
+    "postpublish": "git push origin && git push origin --tags"
+  },
+  "author": "Wes Todd <wes@wesleytodd.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wesleytodd/todayis.git"
+  },
+  "dependencies": {
+    "english-days": "^1.0.0"
+  }
+}
